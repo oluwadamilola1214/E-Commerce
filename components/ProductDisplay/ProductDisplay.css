@@ -1,0 +1,150 @@
+/* ProductDisplay.css */
+
+.productdisplay {
+  /* display: flex; */
+  justify-content: space-between;
+  margin: 20px;
+  padding: 9px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.productdisplay-left {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* .productdisplay-img-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+} */
+
+/* .productdisplay-img-list img {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+} */
+
+.productdisplay-img-list img:hover {
+  transform: scale(1.1);
+}
+
+.productdisplay-img {
+  text-align: center;
+}
+
+.productdisplay-main-img {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #e2dddd;
+  border-radius: 8px;
+}
+
+.productdisplay-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .productdisplay-right h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+} */
+
+.productdisplay-right-star {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.productdisplay-right-star img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.productdisplay-right-star p {
+  margin-left: 10px;
+}
+
+.productdisplay-right-prices {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.productdisplay-right-prices-old {
+  text-decoration: line-through;
+  margin-right: 10px;
+  color: #999;
+}
+
+.productdisplay-right-prices-new {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.productdisplay-right-description {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.productdisplay-right-size {
+  margin-bottom: 20px;
+}
+
+.productdisplay-right-size h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.productdisplay-right-sizes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.productdisplay-right-sizes div {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.productdisplay-right-sizes div:hover {
+  background-color: #f0f0f0;
+}
+
+button {
+display: flex;
+flex-direction: column;
+  padding: 10px ;
+  background-color: #3498db;
+  color: #e11a1a;
+  border: 5px solid rgb(227, 18, 18);
+  width: 130px;
+  border-radius:5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #de0505;
+}
+
+.productdisplay-right-category {
+  margin-top: 10px;
+}
+
+.productdisplay-right-category span {
+  font-weight: bold;
+}
